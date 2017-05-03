@@ -2,6 +2,7 @@
   name: LogicMonitor Collector
   version: 0.1
   description: The collector is an application that runs on a server within your infrastructure and uses standard monitoring protocols to intelligently monitor devices within your infrastructure.
+  minimum_rancher_version: v0.46.0
   questions:
     - variable: company
       label: Company name
