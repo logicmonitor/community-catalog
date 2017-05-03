@@ -1,0 +1,9 @@
+logicmonitor-collector:
+  image: logicmonitor/lm_collector:latest
+  restart: unless-stopped
+  environment:
+    company: ${company}
+    username: ${username}
+    password: ${password}
+    collector_id: ${collector_id}
+    description: ${description}

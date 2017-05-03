@@ -1,0 +1,34 @@
+.catalog:
+  name: LogicMonitor Collector
+  version: 0.1
+  description: The collector is an application that runs on a server within your infrastructure and uses standard monitoring protocols to intelligently monitor devices within your infrastructure.
+  questions:
+    - variable: company
+      label: Company name
+      description: Your company's name as it appears in your LogicMonitor URL
+      required: true
+      type: string
+
+    - variable: username
+      label: LogicMonitor password
+      description: This is your LogicMonitor username
+      required: true
+      type: string
+
+    - variable: password
+      label: LogicMonitor password
+      description: This is your LogicMonitor username
+      required: true
+      type: password
+
+    - variable: description
+      label: Collector description
+      description: | This is the description that will be displayed for this collector in the Collector settings page
+      required: false
+      type: string
+
+    - variable: collector_id
+      label: Existing collector id
+      description: | Use the id of a pre-existing collector rather than creating a new collector
+      required: false
+      type: int
