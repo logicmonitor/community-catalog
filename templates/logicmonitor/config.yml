@@ -2,6 +2,6 @@ name: LogicMonitor
 description: SaaS-based performance monitoring for modern IT infrastructure
 version: 0.1
 category: Monitoring
-maintainer: "Jeff Wozniak <jeff.wozniak@logicmonitor.com>"
+maintainer: "LogicMonitor <techops@logicmonitor.com>"
 license: The MIT License
 projectURL: https://github.com/logicmonitor/docker_lm_collector
