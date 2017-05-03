@@ -2,6 +2,6 @@ name: LogicMonitor
 description: SaaS-based performance monitoring for modern IT infrastructure
 version: latest
 category: Monitoring
-maintainer: LogicMonitor <techops@logicmonitor.com>
+maintainer: "LogicMonitor <techops@logicmonitor.com>"
 license: The MIT License
 projectURL: https://github.com/logicmonitor/docker_lm_collector
