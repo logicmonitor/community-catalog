@@ -1,6 +1,6 @@
 name: LogicMonitor
 description: SaaS-based performance monitoring for modern IT infrastructure
-version: 0.1
+version: latest
 category: Monitoring
 maintainer: LogicMonitor <techops@logicmonitor.com>
 license: The MIT License
